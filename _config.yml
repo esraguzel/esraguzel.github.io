@@ -1,11 +1,11 @@
 # Site settings
 author: Esra Guzel
-title: 
+title: Becoming A Data Scientist
 header-img: img/home-bg.png
 email: esraguzel@icloud.com
 copyright_name: Esra Guzel
 description: > # this means to ignore newlines until "baseurl:"
-  
+  My Journey of Data Science
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  esraguzel
