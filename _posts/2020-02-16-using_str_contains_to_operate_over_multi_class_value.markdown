@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Using `str.contains()`  to operate over multi class value"
-date:       2020-02-16 20:26:44 +0000
+date:       2020-02-16 15:26:45 -0500
 permalink:  using_str_contains_to_operate_over_multi_class_value
 ---
 
@@ -42,7 +42,32 @@ unique_genres = list(set(genres_list))
 unique_genres
 ```
 
-<img src="https://github.com/esraguzel/dsc-mod-1-project-v2-1-onl01-dtsc-ft-012120/blob/master/images/Screenshot%202020-02-16%20at%2018.59.58.png?raw=true"height="100%">
+```
+['Music',
+ 'Sport',
+ 'News',
+ 'Comedy',
+ 'Adventure',
+ 'Mystery',
+ 'Fantasy',
+ 'Drama',
+ 'War',
+ 'Family',
+ 'Sci-Fi',
+ 'Reality-TV',
+ 'Romance',
+ 'History',
+ 'Documentary',
+ 'Thriller',
+ 'Horror',
+ 'Musical',
+ 'Biography',
+ 'Crime',
+ 'Action',
+ 'nan',
+ 'Western',
+ 'Animation']
+```
 
 
 Now the `str.contains()` function can be used to iterate over the unique genres list to find genres for each movie.  Here the outcome is stored under a list called results. Later, results list is converted into a dataframe using unique genres list as an index. 
