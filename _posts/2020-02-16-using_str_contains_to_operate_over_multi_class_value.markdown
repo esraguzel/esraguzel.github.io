@@ -6,7 +6,7 @@ permalink:  using_str_contains_to_operate_over_multi_class_value
 ---
 
 
-Pandas Series.str.contains() function is generally used for to search whether a a string of a Series or Index has a string pattern or a regular expression(regex). If the  Series or Index contains the searched pattern or regex, the function gives back a boolean Series or Index.
+Pandas Series.str.contains() function is generally used for to search whether a Series or Index contains a string pattern or a regular expression(regex). If the  Series or Index contains the searched pattern or regex, the function gives back a boolean Series or Index.
 
 I wanted to explore the use of `str.contains()` function on pandas series, for instance a column which contains  multi class values.  Let's think that we have a dataframe df_genres which contains multi genre for each movie. 
 
