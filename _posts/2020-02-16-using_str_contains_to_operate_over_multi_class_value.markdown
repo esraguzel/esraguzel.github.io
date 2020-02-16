@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Using `str.contains()`  to operate over multi class value"
+title:      "Using `str.contains()`  to operate over multi class values"
 date:       2020-02-16 15:26:45 -0500
 permalink:  using_str_contains_to_operate_over_multi_class_value
 ---
