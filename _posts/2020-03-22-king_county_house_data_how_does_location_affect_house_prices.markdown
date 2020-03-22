@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "King County house Data:  How Does Location Affect House Prices?"
-date:       2020-03-22 13:57:36 +0000
+title:      "King County House Data:  How Does Location Affect House Prices?"
+date:       2020-03-22 09:57:37 -0400
 permalink:  king_county_house_data_how_does_location_affect_house_prices
 ---
 
@@ -9,7 +9,7 @@ permalink:  king_county_house_data_how_does_location_affect_house_prices
 
 King County house dataset contains house data which are sold during 2014 and 2015 at King County.  As a part of my project I had a chance to explore and work on this dataset.  'How Does Location Affect House Prices?'  is asked to explore which part of the county is most expensive , how location affect house prices. If there is enough correlation between house price and location data, location data can be used as a predictor for linear regression analysis.  
 
-To answer my question , first  `groupby()` function  is used to group zipcodes and average price  calculated for each zipcode. The results are shown by a bar graph.  During grouping the prices by zip codes, the `mean ()` function is used instead of `sum ()` to reach unbiased results. 
+To answer the question , first  `groupby()` function  is used to group zipcodes and average price  calculated for each zipcode. The results are shown by a bar graph.  During grouping the prices by zip codes, the `mean ()` function is used instead of `sum ()` to reach unbiased results. 
 
 
 
@@ -38,7 +38,7 @@ plt.show();
 Here it can be observed that in general northern part of the county and the houses surrounding Lake Washington has higher prices.
 
 
-To further analyze location's effect on house prices an open source data 'zipcode_king_county.geojson' is loaded to work with folium. It is aimed to create a heatmap with Choropleth() function showing average price for each zip code.
+To further analyze location's effect on house prices an open source data 'zipcode_king_county.geojson' is loaded to work with folium. It is aimed to create a heatmap with `Choropleth()` function showing average price for each zip code.
 ```
 import json
 # Calculating each zipcodes price mean
