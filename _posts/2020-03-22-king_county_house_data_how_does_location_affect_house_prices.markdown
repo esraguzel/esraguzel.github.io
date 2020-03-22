@@ -124,7 +124,7 @@ m
 
 
 
-As recognized from the above maps Northwest part of the county has higher average house prices  than the rest. In additon, some zip codes average house price are remarkably high compared to the rest.  It can be concluded that zipcodes can be effective predictors when performing multiple Regression Analysis on KC house data. 
+As recognized from the above maps Northwest part of the county has higher average house prices  than the rest. In additon, some zip codes average house price are remarkably high compared to the rest.  It can be concluded that zipcodes can be effective predictors when performing Multiple Regression Analysis on KC house data. 
 
 
 
