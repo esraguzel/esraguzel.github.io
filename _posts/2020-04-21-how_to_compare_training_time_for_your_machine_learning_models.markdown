@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "How to compare training time for your machine learning models "
-date:       2020-04-21 23:21:05 +0000
+date:       2020-04-21 19:21:06 -0400
 permalink:  how_to_compare_training_time_for_your_machine_learning_models
 ---
 
