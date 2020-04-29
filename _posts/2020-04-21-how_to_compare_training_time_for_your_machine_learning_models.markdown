@@ -5,7 +5,7 @@ date:       2020-04-21 19:21:06 -0400
 permalink:  how_to_compare_training_time_for_your_machine_learning_models
 ---
 
-Most of the time applying and comparing machine learning models to our datasets  takes plenty of time.  To simplify this process and avoid confusion, the data scientists show the results in small dataframes.
+Most of the time applying and comparing machine learning models takes plenty of time.  To simplify this process and avoid confusion, the data scientists show the results in small dataframes.
 
 In my last project I wanted to compare a few machine learning models in terms of accucary, f1and recall scores as well as training time.  
 
