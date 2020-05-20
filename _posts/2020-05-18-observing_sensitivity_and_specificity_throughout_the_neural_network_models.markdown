@@ -7,9 +7,12 @@ permalink:  observing_sensitivity_and_specificity_throughout_the_neural_network_
 
 
 
-One of the most common use of deep learning is healthcare. Deep learning in health services gives doctors/specialists the assist to diagnose and treat the illnesses better and lead to stronger clinical solutions.  In medical field deep learning gives opportunity to disclosure of new medications and their improvements. 
 
-One of the most common practises of deep learning in medical field is detecting the patients by classifying X-ray images.  Here, we will observe how accuracy, and recall scores will change as the neural network models gets deeper and more complicated. 
+In healthcare sector, it is believed that human-caused errors are the primary cause of negative experiences/events. To prevent medical human errors and improve patient safety many approaches and methods developed and combined with different fields such as computer science. 
+
+Like in many fields, deep learning models becomes very useful in healthcare sector by reducing human caused errors, minimizing diagnosis time&costs, lowering medical legal risks and maximizing patient safety. 
+
+One of the most common practices of deep learning in medical field is detecting the patients by classifying X-ray images.  Here, we will observe how accuracy, and recall scores will change as the neural network models gets deeper and more complicated. 
 
 The data used for modelling 5860 training images of healthy persons and pneumonia patients, divided into 3-fold of train, validation and test. The data is also highly imbalanced that number of pneumonia images exceeds the number of normal images nearly 3 times.
 
