@@ -60,6 +60,11 @@ Here it can be observed that out model used death rates and shifted detah rates 
 
 In short, It was very exciting to explore how the sentiment analysers, language classifier models are able to judge our sentiments and able to spot the events that caused sudden change in our feelings. I strongly believe that with more data and features it is possible to get better predictions with machine learning classifiers. 
 
+If you would like to view the code for this project, feel free to view it at the following GitHub repository:
+
+https://github.com/esraguzel/dsc-capstone-project-v2-onl01-dtsc-ft-012120
+
+Thank you.
 
 
 
