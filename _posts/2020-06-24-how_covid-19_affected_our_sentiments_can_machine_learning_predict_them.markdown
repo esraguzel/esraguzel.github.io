@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "How COVID-19 affected our sentiments? Can machine learning predict them?"
-date:       2020-06-24 13:38:36 +0000
+date:       2020-06-24 09:38:37 -0400
 permalink:  how_covid-19_affected_our_sentiments_can_machine_learning_predict_them
 ---
 
@@ -48,21 +48,13 @@ At last part of my project I wanted to explore how the change in death rates aff
 
 Before talking about accuracy scores, I want to mention that I had only 75 data points. In my case, It is important to note that the ML models doesn't have enough data to learn and results are biased. 
 
-Besides death rates, I used day of the weeks, shifted death rates, positive sentiment change and shifted negative sentiment as features to predict change in negative sentiment. 
+Besides death rates, I used day of the weeks, shifted death rates, shifted positive sentiment change and shifted negative sentiment as features to predict change in negative sentiment. 
 
-Here are the results:
-
-<img src="https://github.com/esraguzel/dsc-capstone-project-v2-onl01-dtsc-ft-012120/blob/master/images/Screenshot%202020-06-24%20at%2014.20.04.png?raw=true" width="100%">
+Unfortunately, the classifiers couldn't able to make accurate predictions, mainly due to lack of enough data. 
 
 
-
-RandomForest classifier is able to predict the change in negative sentiments with 81% accuracy. I believe with more data and tuning could increase the all the models’ performance. Let's have a look at which features the model benefitted the most:
-
-<img src="https://github.com/esraguzel/dsc-capstone-project-v2-onl01-dtsc-ft-012120/blob/master/images/feature_imp.png?raw=true" width="100%">
+In short, It was very exciting to explore how the sentiment analysers, language classifier models are able to judge our sentiments and able to spot the events that caused sudden change in our feelings. I strongly believe that with more data and features it is possible to get accurate predictions with machine learning models. 
 
 
-In short, It was very exciting to explore how the sentiment analysers, language classifier models are able to judge our sentiments and able to spot the events that caused sudden change in our feelings and interesting to see how ML algorithms could able to predict the change in negative sentiment with a bunch of features including death rates.   
-
-I strongly believe that this model, other than Coronavirus pandemic, can be used for any large scale of events to evaluate and take necessary measures to protect public mental health. 
 
 
