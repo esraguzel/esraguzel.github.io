@@ -8,8 +8,7 @@ permalink:  how_covid-19_affected_our_sentiments_can_machine_learning_predict_th
 
 For the last six months, all people around the world got affected by Covid-19 in many ways. Other than losing the beloved ones, people lost jobs, kids couldn't go to school, domestic violence increased incredibly, suicide rates escalated... How could experts can analyse public's mental health and improve it?
 
-
-Among substantive amount of data on Coronavirus I have chosen to analyse UK Twitter  and UK coronavirus official data to build and NLP based application to detect and project future coronavirus spread to help identify patterns, trends and public awareness levels related to coronavirus disease, for my last project at Flatiron school. 
+Among substantive amount of data on Coronavirus I have chosen to analyse UK Twitter  and UK coronavirus official data to build an NLP based application to identify how our sentiments changed during Coronavirus lock down, what affected the most and up to what degree the change in death rates are effecting our sentiments, in particular negative sentiment for my last project at Flatiron school. In other words, project aimed at evaluating Covid-19 lock down period in terms of change in sentiments and helping to identify patterns, trends and public awareness levels related public mental health. 
 
 A total number of 22250 unique tweets between 15 March 2020 and 30 May 2020 that contains coronavirus and UK as keywords are imported for sentiment analysis. In order to conduct sentiment analysis, initially I worked with VADER sentiment analyser which is a sentiment analysis tool based on lexicons of sentiment-related words, especially attuned to sentiments expressed in social media.
 
@@ -58,7 +57,7 @@ Here it can be observed that out model used death rates and shifted detah rates 
 
 <img src="https://github.com/esraguzel/dsc-capstone-project-v2-onl01-dtsc-ft-012120/blob/master/images/Screenshot%202020-06-24%20at%2022.04.22.png?raw=true" width="100%">
 
-In short, It was very exciting to explore how the sentiment analysers, language classifier models are able to judge our sentiments and able to spot the events that caused sudden change in our feelings. I strongly believe that with more data and features it is possible to get better predictions with machine learning classifiers. 
+In short, It was very exciting to explore how the sentiment analysers, language classifier models are able to judge our sentiments and able to spot the events that caused sudden change in our feelings. It is intersting to see how machine learning classifiers used death rates for predicting our sentiments. I strongly believe that with more data and features it is possible to get better predictions with machine learning classifiers. 
 
 If you would like to view the code for this project, feel free to view it at the following GitHub repository:
 
